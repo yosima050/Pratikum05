@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class PemilihanBilangan26 {
+public class PemilihanBilanganTernaryOperator26 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class PemilihanBilangan26 {
 
         hasil = (angka % 2 == 0) ? "Genap" : "Ganjil";
 
-        System.out.println("Angka " + angka + "adalah termasuk bilangan " + hasil);
-        
+        System.out.println("Angka " + angka + " adalah termasuk bilangan " + hasil);
+
     }
 }
