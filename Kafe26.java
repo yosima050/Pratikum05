@@ -42,6 +42,9 @@ public class Kafe26 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default:
+                System.out.println("Ukuran Cup Tidak Valid");
+                return;
         }
 
         double diskon = keanggotaan ? 0.1 : 0;
